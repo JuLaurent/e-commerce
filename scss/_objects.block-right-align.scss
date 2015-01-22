@@ -1,0 +1,7 @@
+.block--align-right {
+	text-align: right;
+}
+
+.block--align-right + .block--align-right {
+	margin-top:10px;
+}

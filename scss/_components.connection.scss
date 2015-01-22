@@ -1,0 +1,11 @@
+.connection{
+	display:inline-block;
+}
+
+.connection__subscribe, .connection__connect {
+	@include link-color(white);
+}
+
+.connection__subscribe {
+	margin-left:20px;
+}

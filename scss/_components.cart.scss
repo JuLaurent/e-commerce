@@ -1,0 +1,11 @@
+.cart {
+	display:inline-block;
+	margin-left:70px;
+	@include link-color(white);
+}
+
+.cart__logo {
+	display:inline-block;
+	width: 16px;
+	margin-right:5px;
+}

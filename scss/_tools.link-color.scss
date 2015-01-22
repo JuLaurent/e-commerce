@@ -1,0 +1,13 @@
+@mixin link-color($color1){
+	a {
+		color:$color1;
+	}
+
+	&:hover a {
+		border-bottom:2px solid $color1;
+	}
+
+	&.active-link {
+		border-bottom:2px solid $color1;
+	}
+}

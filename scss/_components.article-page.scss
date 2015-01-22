@@ -1,0 +1,45 @@
+.article-page {
+	margin:2em 0;
+}
+
+.article-page__main-content {
+	box-sizing:border-box;
+	padding-left:40px;
+}
+
+.article-page__title {
+	color:$green;
+}
+
+.article-page__description {
+	line-height:1.2;
+	margin-bottom: 2em;
+}
+
+.article-page__add-to-cart{
+	margin-bottom: 2em;
+}
+
+.description__title {
+	margin-bottom:1em;
+	display: block;
+	color:$green;
+}
+
+.article-page__price {
+	font-size: 1.5em;
+	color:$green;
+}
+
+.old-price {
+	margin-right:20px;
+}
+
+.discount {
+	margin-left:20px;
+}
+
+
+.article-page__delivery {
+	font-size:0.8em;
+}

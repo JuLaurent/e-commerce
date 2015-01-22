@@ -1,0 +1,11 @@
+@mixin price(){
+	@extend .clearfix; 
+
+	del {
+		float:left;
+	}
+
+	ins {
+		float:right;
+	}
+}

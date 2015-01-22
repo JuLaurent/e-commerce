@@ -1,0 +1,16 @@
+.big-images {
+	position:relative;
+	width:320px;
+	height:320px;
+}
+
+.big-images__image {
+	position:absolute;
+	width:100%;
+	top:0;
+	left:0;
+}
+
+.small-images {
+	margin-top:1em;
+}

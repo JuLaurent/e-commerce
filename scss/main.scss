@@ -1,0 +1,123 @@
+/*******
+SETTINGS
+*******/
+
+// Personal
+@import "settings.personal";
+
+// Inuit
+@import "bower_components/inuit-defaults/settings.defaults";
+@import "bower_components/inuit-responsive-settings/settings.responsive";
+
+
+/****
+TOOLS
+****/
+
+// Inuit
+@import "bower_components/inuit-functions/tools.functions";
+@import "bower_components/inuit-mixins/tools.mixins";
+@import "bower_components/inuit-responsive-tools/tools.responsive";
+
+// Personal 
+@import "tools.link-button";
+@import "tools.link-color";
+@import "tools.form-button";
+@import "tools.form-select";
+@import "tools.remove-fieldset-border";
+@import "tools.price";
+
+/******
+GENERIC
+******/
+
+// Inuit
+@import "bower_components/inuit-normalize/generic.normalize";
+@import "bower_components/inuit-reset/generic.reset";
+@import "bower_components/inuit-box-sizing/generic.box-sizing";
+@import "bower_components/inuit-shared/generic.shared";
+
+
+/***
+BASE
+***/
+
+// Inuit
+@import "bower_components/inuit-page/base.page";
+@import "bower_components/inuit-headings/base.headings";
+@import "bower_components/inuit-paragraphs/base.paragraphs";
+@import "bower_components/inuit-lists/base.lists";
+@import "bower_components/inuit-images/base.images";
+
+// Personal
+@import "base.html";
+@import "base.body";
+@import "base.links";
+@import "base.ins";
+
+/******
+OBJECTS
+******/
+
+// Inuit
+@import "bower_components/inuit-layout/objects.layout";
+@import "bower_components/inuit-box/objects.box";
+@import "bower_components/inuit-media/objects.media";
+@import "bower_components/inuit-list-inline/objects.list-inline";
+@import "bower_components/inuit-block/objects.block";
+@import "bower_components/inuit-pack/objects.pack";
+@import "bower_components/inuit-list-ui/objects.list-ui";
+@import "bower_components/inuit-list-block/objects.list-block";
+@import "bower_components/inuit-flag/objects.flag";
+@import "bower_components/inuit-tabs/objects.tabs";
+@import "bower_components/inuit-tables/objects.tables";
+@import "bower_components/inuit-buttons/objects.buttons";
+@import "bower_components/inuit-list-bare/objects.list-bare";
+
+// Personal
+@import "objects.personal-layout";
+@import "objects.personal-list-inline";
+
+@import "objects.block-right-align";
+@import "objects.container";
+
+@import "objects.nav";
+
+@import "objects.store";
+
+@import "objects.side-menu";
+
+@import "objects.form";
+
+
+/*********
+COMPONENTS
+*********/
+
+@import "components.header";
+@import "components.connection";
+@import "components.cart";
+@import "components.research";
+
+@import "components.wrapper";
+@import "components.slider";
+
+@import "components.footer";
+@import "components.rights";
+
+@import "components.men-store";
+@import "components.pagination";
+
+@import "components.article-page";
+@import "components.gallery";
+
+// Inuit
+@import "bower_components/inuit-clearfix/trumps.clearfix";
+@import "bower_components/inuit-widths/trumps.widths";
+@import "bower_components/inuit-widths-responsive/trumps.widths-responsive";
+@import "bower_components/inuit-spacing/trumps.spacing";
+@import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";
+@import "bower_components/inuit-print/trumps.print";
+
+// Personal
+@import "trumps.hidden";

@@ -1,0 +1,16 @@
+.nav {
+	display:inline-block;
+}
+
+.nav__it {
+	@include link-color(white);
+}
+
+.nav__it + .nav__it {
+	margin-left:20px;
+}
+
+.nav__it--border + .nav__it--border {
+	border-left:1px solid white;
+	padding-left:20px;
+}

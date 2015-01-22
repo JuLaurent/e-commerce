@@ -1,0 +1,18 @@
+.#{$inuit-layout-namespace}layout,
+%#{$inuit-layout-namespace}layout {
+    margin:0;
+}
+
+.#{$inuit-layout-namespace}layout__item,
+    %#{$inuit-layout-namespace}layout__item {
+        display: inline-block;
+        padding: 0;
+        vertical-align: middle;
+    }
+
+.#{$inuit-layout-namespace}layout__item--top,
+    %#{$inuit-layout-namespace}layout__item--top {
+        display: inline-block;
+        padding: 0;
+        vertical-align: top;
+    }

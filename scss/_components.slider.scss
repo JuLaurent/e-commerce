@@ -1,0 +1,23 @@
+.slider {
+	width:960px;
+	margin:0 auto;
+	position:relative;
+	margin-bottom:2em;
+}
+
+.slider__sentence {
+	position:absolute;
+	bottom:0;
+	color:white;
+	background-color: $green;
+	width:100%;
+	opacity: 0.9;
+	padding:1em 0 1em 70px;
+}
+
+.slider__sentence p {
+	font-size: 2em;
+	font-weight: bold;
+	padding:0;
+	margin:0;
+}
